@@ -1,0 +1,14 @@
+{
+    "name": "asgrim/rmq-tutorial",
+    "description": "RabbitMQ Tutorial for PHPNW15 Conference",
+    "require": {
+        "videlalvaro/php-amqplib": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Titcumb",
+            "email": "james@asgrim.com"
+        }
+    ]
+}
