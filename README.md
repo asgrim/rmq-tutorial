@@ -36,7 +36,7 @@ Outline
    * t5 - Broken message acknowledgement - fix it (15m) - done
  * Second half
    * t6 - RPC (10m) - done
-   * t7 - TTL types (10m)
+   * t7 - TTL types (10m) - done
    * t8 - DLX (10m)
    * t9 - delayed messages (10m)
    * t10 - priority messages (10m)
