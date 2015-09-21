@@ -35,7 +35,7 @@ Outline
    * t4 - Topic exchange (15m) - done
    * t5 - Broken message acknowledgement - fix it (15m) - done
  * Second half
-   * t6 - RPC (10m)
+   * t6 - RPC (10m) - done
    * t7 - TTL types (10m)
    * t8 - DLX (10m)
    * t9 - delayed messages (10m)
