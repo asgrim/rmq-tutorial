@@ -37,7 +37,7 @@ Outline
  * Second half
    * t6 - RPC (10m) - done
    * t7 - TTL types (10m) - done
-   * t8 - DLX (10m)
+   * t8 - DLX (10m) - done
    * t9 - delayed messages (10m)
    * t10 - priority messages (10m)
    * t11 - Shovel plugin (10m)
