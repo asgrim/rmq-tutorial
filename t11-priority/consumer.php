@@ -35,6 +35,8 @@ $channel->exchange_declare(
 // Update exchange name here too
 $channel->queue_bind($queue_name, 'test_priority_exchange', 'foo');
 
+// Prefetch 1 message at a time
+//$channel->basic_qos(null, 1, null);
 $channel->basic_consume(
     $queue_name,
     'foo' . getmypid(),
