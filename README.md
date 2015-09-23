@@ -40,6 +40,6 @@ Outline
    * t8 - DLX (10m) - done
    * t9 - delayed messages (10m) - done
    * t10 - Shovel plugin (10m) - done
-   * t11 - priority messages (10m)
+   * t11 - priority messages (10m) - done
    * t12 - Management API (10m)
    * Clustering - slides (20m)
