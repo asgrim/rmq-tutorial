@@ -41,5 +41,5 @@ Outline
    * t9 - delayed messages (10m) - done
    * t10 - Shovel plugin (10m) - done
    * t11 - priority messages (10m) - done
-   * t12 - Management API (10m)
-   * Clustering - slides (20m)
+   * t12 - Management API (10m) - done
+   * Clustering - slides (5m) - done
