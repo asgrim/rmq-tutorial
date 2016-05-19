@@ -1,4 +1,4 @@
-RabbitMQ Tutorial - PHPNW15 Conference
+RabbitMQ Tutorial - phptek16 Conference
 ======================================
 
 Tutorial Abstract

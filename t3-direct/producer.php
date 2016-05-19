@@ -11,7 +11,7 @@ $channel->exchange_declare(
     'direct'
 );
 
-$message = new AMQPMessage('Hello, PHPNW15 tutorial!!');
+$message = new AMQPMessage('Hello, phptek16 tutorial!!');
 
 // Fetch routing key from CLI param
 $routing_key = $argv[1];

@@ -13,7 +13,7 @@ $channel->queue_declare(
 $metadata = [
     'expiration' => '30000',
 ];
-$message = new AMQPMessage('Hello, PHPNW15 tutorial!!', $metadata);
+$message = new AMQPMessage('Hello, phptek16 tutorial!!', $metadata);
 
 $channel->basic_publish(
     $message,

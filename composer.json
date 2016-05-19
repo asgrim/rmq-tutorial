@@ -1,6 +1,6 @@
 {
     "name": "asgrim/rmq-tutorial",
-    "description": "RabbitMQ Tutorial for PHPNW15 Conference",
+    "description": "RabbitMQ Tutorial for phptek16 Conference",
     "require": {
         "videlalvaro/php-amqplib": "^2.5"
     },

@@ -32,7 +32,7 @@ RabbitMQ Management API
 
     - Publish a message to exchange (POST)
         curl -i -u guest:guest -H "content-type:application/json" \
-            -XPOST -d'{"properties":{},"routing_key":"foo","payload":"Hello PHPNW15 Tutorial","payload_encoding":"string"}' \
+            -XPOST -d'{"properties":{},"routing_key":"foo","payload":"Hello phptek16 Tutorial","payload_encoding":"string"}' \
             http://192.168.33.99:15672/api/exchanges/%2f/test_http_exchange/publish
 
     - Fetch the message (POST - not GET as it can modify(delete) the message)

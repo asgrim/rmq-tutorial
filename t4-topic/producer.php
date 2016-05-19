@@ -11,7 +11,7 @@ $channel->exchange_declare(
     'topic'
 );
 
-$message = new AMQPMessage('Hello, PHPNW15 tutorial!!');
+$message = new AMQPMessage('Hello, phptek16 tutorial!!');
 
 $routing_key = $argv[1];
 $channel->basic_publish(

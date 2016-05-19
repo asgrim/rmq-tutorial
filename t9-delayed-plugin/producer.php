@@ -27,7 +27,7 @@ $metadata = [
         'x-delay' => 10000,
     ]),
 ];
-$message = new AMQPMessage('Hello, PHPNW15 tutorial!!', $metadata);
+$message = new AMQPMessage('Hello, phptek16 tutorial!!', $metadata);
 
 $channel->basic_publish(
     $message,

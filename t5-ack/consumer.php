@@ -7,7 +7,7 @@ $channel = require '../channel.php';
 
 $handler = function(AMQPMessage $message) use ($channel) {
     // Check some content and throw an exception
-    if ($message->body === 'Hello, PHPNW15 tutorial!!') {
+    if ($message->body === 'Hello, phptek16 tutorial!!') {
         throw new \Exception("Oh noes!!!!!!!");
     }
     echo $message->body . "\n";

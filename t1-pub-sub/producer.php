@@ -12,7 +12,7 @@ $channel->queue_declare(
 
 // Create a new AMQPMessage object
 // value can be anything - text, json, even binary data
-$message = new AMQPMessage('Hello, PHPNW15 tutorial!!');
+$message = new AMQPMessage('Hello, phptek16 tutorial!!');
 
 $channel->basic_publish(
     $message, // the message object we just created

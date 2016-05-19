@@ -19,7 +19,7 @@ for ($i = 1; $i <= 3; $i++) {
     ];
 
     // apply metadata, as well as including priority in the message (so we can see it)
-    $message = new AMQPMessage('Hello, PHPNW15 tutorial!! [' . $i . ']', $metadata);
+    $message = new AMQPMessage('Hello, phptek16 tutorial!! [' . $i . ']', $metadata);
 
     // Modify to "batch" publish - purely to demonstrate another feature while here
     $channel->batch_basic_publish(
