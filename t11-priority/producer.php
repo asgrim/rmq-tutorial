@@ -3,7 +3,7 @@
 use PhpAmqpLib\Message\AMQPMessage;
 
 /** @var \PhpAmqpLib\Channel\AMQPChannel $channel */
-$channel = require '../channel.php';
+$channel = require __DIR__ . '/../channel.php';
 
 $channel->exchange_declare(
     'test_priority_exchange', // change exchange name here
