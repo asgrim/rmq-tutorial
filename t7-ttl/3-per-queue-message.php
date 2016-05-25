@@ -4,7 +4,7 @@ use PhpAmqpLib\Message\AMQPMessage;
 use PhpAmqpLib\Wire\AMQPTable;
 
 /** @var \PhpAmqpLib\Channel\AMQPChannel $channel */
-$channel = require '../channel.php';
+$channel = require __DIR__ . '/../channel.php';
 
 $metadata = new AMQPTable([
     'x-message-ttl' => 10000, // expire all messages in the queue after 10s
