@@ -7,8 +7,6 @@ $connection = new \Bunny\Client([
 ]);
 $channel = $connection->connect()->channel();
 
-$channel->queueDeclare('bunny_queue');
 $channel->exchangeDeclare('bunny_exchange');
-$channel->queueBind('bunny_queue', 'bunny_exchange');
 
-$channel->publish('hello phptek!', [], 'bunny_exchange');
+$channel->publish('hello bgphp16!', [], 'bunny_exchange');

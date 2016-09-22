@@ -1,8 +1,12 @@
 {
     "name": "asgrim/rmq-tutorial",
-    "description": "RabbitMQ Tutorial for phptek16 Conference",
+    "description": "RabbitMQ Tutorial for Bulgaria PHP 2016 Conference",
     "require": {
-        "videlalvaro/php-amqplib": "^2.5"
+        "php-amqplib/php-amqplib": "^2.6",
+        "bunny/bunny": "^0.2",
+        "react/event-loop": "~0.4",
+        "react/promise": "~2.4",
+        "clue/stdio-react": "^0.3.1"
     },
     "license": "MIT",
     "authors": [

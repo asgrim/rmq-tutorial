@@ -11,7 +11,7 @@ $channel->exchange_declare(
     'fanout'
 );
 
-$message = new AMQPMessage('Hello, phptek16 tutorial!!');
+$message = new AMQPMessage('Hello, bgphp16 tutorial!!');
 
 $channel->basic_publish(
     $message,

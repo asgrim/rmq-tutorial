@@ -1,5 +1,5 @@
-RabbitMQ Tutorial - phptek16 Conference
-======================================
+RabbitMQ Tutorial - Bulgaria PHP 2016 Conference
+================================================
 
 Tutorial Abstract
 -----------------
@@ -21,33 +21,3 @@ Prerequisites
    * RabbitMQ
    * PHP
  * Distribute pre-packaged box via USB stick
-
-Outline
--------
- * First half
-   * 09:30 ... Slides - Messaging basics (15m) - done
-   * 09:45 ... Setup assistance (5m) - done
-   * 09:50 ... t1 - Basic pub/sub (15m) - done
-   * 10:05 ... t2 - Fanout exchange (10m) - done
-   * 10:15 ... t3 - Direct exchange (15m) - done
-   * 10:30 ... t4 - Topic exchange (15m) - done
-   * 10:45 ... t5 - Broken message acknowledgement - fix it (15m) - done
-   * 11:00 ... Pre-break wrap-up (2m) - done
- * Second half
-   * 11:30 ... t6 - RPC (10m) - done
-   * 11:40 ... t7 - TTL types (10m) - done
-   * 11:50 ... t8 - DLX (10m) - done
-   * 12:00 ... t9 - delayed messages (10m) - done
-   * 12:10 ... t10 - Shovel plugin (10m) - done
-   * 12:20 ... t11 - priority messages (10m) - done
-   * 12:30 ... t12 - Management API (10m) - done
-   * 12:40 ... Clustering - slides (5m) - done
-   * 12:45 ... Homework: Create a simple application with RabbitMQ
-   * 13:00 ... Fin!
-
-Homework ideas
---------------
- - A webpage that logs output as it is displayed
- - A chat application
- - Simulate a shopping cart with Commands/Events or even CQRS
- - Investigate async RabbitMQ (hint: https://github.com/jakubkulhan/bunny)

@@ -12,7 +12,7 @@ $channel->exchange_declare(
 
 // Create a new AMQPMessage object
 // value can be anything - text, json, even binary data
-$message = new AMQPMessage('Hello, phptek16 tutorial!!');
+$message = new AMQPMessage('Hello, bgphp16 tutorial!!');
 
 $routing_key = $argv[1];
 $channel->basic_publish(
