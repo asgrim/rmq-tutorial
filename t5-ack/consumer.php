@@ -20,7 +20,7 @@ $handler = function(AMQPMessage $message) use ($channel) {
 $queue_name = 'my_acked_queue';
 $channel->queue_declare(
     $queue_name, // fix the queue name
-    false, // passive - don't check if a queue with the same name exists
+    false, // passive - if false and queue doesn't exist, create it. if true, complain if queue doesn't exist
     false, // durable - the queue will not survive server restarts
     false, // exclusive - the queue can not be accessed by other channels
     false // autodelete (DEFAULTS TO TRUE)
