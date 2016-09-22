@@ -15,7 +15,7 @@ $metadata = new AMQPTable([
 ]);
 $channel->queue_declare('test_dlx_queue', false, false, false, false, false, $metadata);
 
-$message = new AMQPMessage('Hello, phptek16 tutorial!!');
+$message = new AMQPMessage('Hello, bgphp16 tutorial!!');
 
 $channel->basic_publish(
     $message,

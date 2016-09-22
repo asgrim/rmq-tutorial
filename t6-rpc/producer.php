@@ -27,7 +27,7 @@ $metadata = [
     'correlation_id' => $correlation_id,
     'reply_to' => $callback_queue,
 ];
-$message = new AMQPMessage('Hello, phptek16 tutorial!!', $metadata);
+$message = new AMQPMessage('Hello, bgphp16 tutorial!!', $metadata);
 
 $routing_key = $argv[1];
 $channel->basic_publish(
