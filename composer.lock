@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d120893e6a57b64a4b0656fe28fb9dc",
-    "content-hash": "94d26e4953e0b407aa24962477e1f6e7",
+    "hash": "e680b248622377884c2c23dc86ae6a00",
+    "content-hash": "986f734ead20b51972443da4dfa44a4d",
     "packages": [
         {
             "name": "bunny/bunny",
@@ -69,6 +69,99 @@
                 "reactphp"
             ],
             "time": "2016-09-13 18:57:54"
+        },
+        {
+            "name": "clue/stdio-react",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/php-stdio-react.git",
+                "reference": "a7a2b8f732fdebaf091d3adf5ac03810160f410f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/php-stdio-react/zipball/a7a2b8f732fdebaf091d3adf5ac03810160f410f",
+                "reference": "a7a2b8f732fdebaf091d3adf5ac03810160f410f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "react/event-loop": "0.3.*|0.4.*",
+                "react/stream": "0.3.*|0.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clue\\React\\Stdio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "Async standard console input & output (STDIN, STDOUT)",
+            "homepage": "https://github.com/clue/php-stdio-react",
+            "keywords": [
+                "async",
+                "reactphp",
+                "readline",
+                "stdin",
+                "stdio",
+                "stdout"
+            ],
+            "time": "2015-11-26 19:06:42"
+        },
+        {
+            "name": "evenement/evenement",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/evenement.git",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Evenement": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Événement is a very simple event dispatching library for PHP",
+            "keywords": [
+                "event-dispatcher",
+                "event-emitter"
+            ],
+            "time": "2012-11-02 14:49:47"
         },
         {
             "name": "php-amqplib/php-amqplib",
@@ -274,6 +367,50 @@
             ],
             "description": "A lightweight implementation of CommonJS Promises/A for PHP",
             "time": "2016-05-03 17:50:52"
+        },
+        {
+            "name": "react/stream",
+            "version": "v0.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/stream.git",
+                "reference": "fcc9e7cea126962cff303c90c05e2efdcec09a27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/fcc9e7cea126962cff303c90c05e2efdcec09a27",
+                "reference": "fcc9e7cea126962cff303c90c05e2efdcec09a27",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "^2.0|^1.0",
+                "php": ">=5.3.8"
+            },
+            "require-dev": {
+                "clue/stream-filter": "~1.2",
+                "react/event-loop": "^0.4|^0.3",
+                "react/promise": "^2.0|^1.0"
+            },
+            "suggest": {
+                "react/event-loop": "^0.4",
+                "react/promise": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Stream\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Basic readable and writable stream interfaces that support piping.",
+            "keywords": [
+                "pipe",
+                "stream"
+            ],
+            "time": "2016-08-22 09:51:07"
         }
     ],
     "packages-dev": [],
