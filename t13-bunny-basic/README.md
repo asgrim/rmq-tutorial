@@ -8,6 +8,4 @@ Bunny library
 * Slightly improved API; however still difficult-to-remember bools everywhere :/
 
 * HOWEVER
- - Works with React for async message handling
- 
- - https://github.com/jakubkulhan/bunny/blob/master/benchmark/consumer_async.php
+ - Works with React for async message handling (see next step)
