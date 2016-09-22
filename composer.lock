@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ac92e9a8cf2ed60305d4a388de6de6d",
-    "content-hash": "e41c1c9d24db913cc556314378432098",
+    "hash": "0d120893e6a57b64a4b0656fe28fb9dc",
+    "content-hash": "94d26e4953e0b407aa24962477e1f6e7",
     "packages": [
         {
             "name": "bunny/bunny",

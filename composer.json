@@ -3,7 +3,9 @@
     "description": "RabbitMQ Tutorial for Bulgaria PHP 2016 Conference",
     "require": {
         "php-amqplib/php-amqplib": "^2.6",
-        "bunny/bunny": "^0.2"
+        "bunny/bunny": "^0.2",
+        "react/event-loop": "~0.4",
+        "react/promise": "~2.4"
     },
     "license": "MIT",
     "authors": [
